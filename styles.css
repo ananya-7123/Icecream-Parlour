@@ -1,0 +1,218 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pic_used/bg.jpeg'); 
+    margin: 40px;  
+    background-size: cover;  
+    background-position: center; 
+    background-attachment: fixed;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-image: url('pic_used/titlebg5.jpeg');  
+    background-size: cover;  
+    background-position: center; 
+    background-attachment: fixed;
+    color: rgb(66, 31, 31);
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* Container to center the content */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff8f0;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Major sections styles */
+.classico-flavours,
+.divine,
+.scoop-options {
+    background-color: #f3e1d6;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+    color: #6e4c3b;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #6e4c3b;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+/* Flavor item styles */
+.classico-item,
+.divine-item {
+    background-color: #f9d9b6;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Description and price */
+.classico-item p,
+.divine-item p {
+    color: #855e42;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.classico-item span,
+.divine-item span {
+    font-size: 1.2em;
+    color: #b06d3a;
+    font-weight: bold;
+}
+
+/* Left text section */
+.left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Right image section */
+.right {
+    flex: 1;
+    text-align: center;
+}
+
+.right img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* Scoop options section */
+.scoop-options {
+    background-color: #f9d9b6;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.scoop-options ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.scoop-options li {
+    color: #6e4c3b;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+/* Contact Form Styling */
+.contact-container {
+    background-color: #f9d9b6;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.contact-container form {
+    flex-direction: column;
+}
+
+.contact-container .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-container label {
+    font-size: 1.1em;
+    color: #6e4c3b;
+}
+
+.contact-container input,
+.contact-container textarea {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid #d1b1a0;
+    margin-top: 5px;
+}
+
+.contact-container button {
+    background-color: #6e4c3b;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-container button:hover {
+    background-color: #855e42;
+}
+
+/* Social Media Container */
+.social-container {
+    background-color: #f9d9b6;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-container a {
+    color: #6e4c3b;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.social-container a:hover {
+    color: #b06d3a;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #6e4c3b;
+    color: white;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .divine-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left, .right {
+        padding: 10px 0;
+    }
+}
